@@ -2,7 +2,9 @@
 Button loginBtn;
 EditText username, password;
 Thread Login;
+
 --------------------------------------------------------------------------------------------------
+
 loginBtn.setOnClickListener(new OnClickListener() {
 			@Override
 			public void onClick(View v) {
@@ -11,7 +13,9 @@ loginBtn.setOnClickListener(new OnClickListener() {
 				Login.start();
 			}
 });
+
 ---------------------------------------------------------------------------------------------------
+
 class Login extends Thread {
 
 		@Override
